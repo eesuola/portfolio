@@ -3,7 +3,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Mail, FileText } from "lucide-react";
 import LinkedinIcon from "@/components/icons/LinkedinIcon";
 import SITE from "@/lib/site";
-import me from "@/images/me.png";
+// Use the static public asset so the image is always available at runtime
 import trackResumeDownload from "@/hooks/use-resume-tracker";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="space-y-4 animate-fade-in">
           <Avatar className="w-28 h-28 sm:w-40 sm:h-40 md:w-64 md:h-64 mx-auto mb-6 shadow-lg">
             <AvatarImage
-              src={me}
+              src="/me.png"
               alt="Profile picture"
               className="object-cover object-center"
             />
