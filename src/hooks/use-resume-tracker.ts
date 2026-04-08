@@ -5,7 +5,7 @@ export default function trackResumeDownload(method: string = "unknown") {
       (window as any).gtag("event", "download_cv", {
         method,
       });
-      // Don't block navigation — gtag should handle it asynchronously
+      // Don't block navigation; gtag should handle it asynchronously
       console.log("gtag: download_cv", method);
       return;
     }

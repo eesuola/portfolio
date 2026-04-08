@@ -13,9 +13,9 @@ const Index = () => {
       <Projects />
       <Contact />
 
-      <footer className="py-8 text-center text-muted-foreground border-t border-border/50">
+      <footer className="border-t border-border/50 py-8 text-center text-muted-foreground">
         <p>
-          © {new Date().getFullYear()} Opeyemi Eesuola. Built with React,
+          (c) {new Date().getFullYear()} Opeyemi Eesuola. Built with React,
           TypeScript & Tailwind CSS.
         </p>
         <div className="mt-2">

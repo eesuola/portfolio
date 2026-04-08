@@ -16,7 +16,7 @@ const skillCategories = [
   },
   {
     title: "DevOps & Tools",
-    skills: ["Docker", "Git/GitHub", "Railway", "Render", "Hetzner", "Postman", "Swagger", "Redis", "RabbitMQ", "Hostinger"],
+    skills: ["Docker", "Git/GitHub", "Railway", "Render", "Hetzner","AWS", "Postman", "Swagger", "Redis", "RabbitMQ", "Hostinger"],
   },
   {
     title: "Other Tools",

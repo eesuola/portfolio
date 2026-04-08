@@ -7,25 +7,25 @@ import SITE from "@/lib/site";
 
 const Contact = () => {
   return (
-    <section className="py-20 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+    <section className="px-4 py-20">
+      <div className="mx-auto max-w-4xl">
+        <h2 className="mb-16 text-center text-4xl font-bold md:text-5xl">
           Let's <span className="gradient-text">Connect</span>
         </h2>
 
-        <Card className="p-8 md:p-12 bg-gradient-card border-border/50 shadow-glow">
-          <div className="text-center space-y-6">
+        <Card className="border-border/50 bg-gradient-card p-8 shadow-glow md:p-12">
+          <div className="space-y-6 text-center">
             <p className="text-xl text-muted-foreground">
-              I’m open to backend roles and freelance projects. I respond
-              quickly to messages. let’s talk about how I can help build your
+              I'm open to backend roles and freelance projects. I respond
+              quickly to messages. Let's talk about how I can help build your
               next product.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+            <div className="flex flex-col justify-center gap-4 pt-6 sm:flex-row">
               <a href={`mailto:${SITE.email}`} className="w-auto">
                 <Button
                   size="lg"
-                  className="bg-gradient-primary border-0 hover:shadow-glow transition-all"
+                  className="border-0 bg-gradient-primary transition-all hover:shadow-glow"
                 >
                   <Mail className="mr-2 h-5 w-5" />
                   Send Email
@@ -71,7 +71,7 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="flex items-center justify-center gap-2 text-muted-foreground pt-8">
+            <div className="flex items-center justify-center gap-2 pt-8 text-muted-foreground">
               <MapPin className="h-5 w-5" />
               <span>Available for remote opportunities worldwide</span>
             </div>
